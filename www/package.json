@@ -6,7 +6,7 @@
     "url": "https://github.com/brownhci/WebGazer.git"
   },
   "scripts": {
-    "start":  "browser-sync start --server --files *",
+    "start":  "npm start",
     "serve": "browser-sync start --server --files *"
   },
   "dependencies": {
