@@ -11,6 +11,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
+    "start": "cd ./www && npm i && npm start",
     "test": "./test/run_tests_and_server.sh",
     "dev": "webpack --progress --colors --config webpack.config.js --mode=development",
     "build": "webpack --progress --colors --config webpack.config.js --mode=production && cp dist/webgazer.js www/. && cp dist/webgazer.js www/data/src/.",

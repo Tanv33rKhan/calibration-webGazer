@@ -110,7 +110,7 @@ $(document).ready(function () {
               }).then((isConfirm) => {
                 if (isConfirm) {
                   //clear the calibration & hide the last middle button
-                  const dev =  "http://localhost:3000"
+                  const dev =  "http://localhost:3001"
                   const baseURL =
                     window.location.hostname.split(":")[0] === "localhost"
                       ? dev
